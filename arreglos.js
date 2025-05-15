@@ -22,7 +22,4 @@ console.log("Eliminacion del primer color", colores)
 colores[1]= "Turquesa"
 console.log("Cambio de posicion:", colores)
 //Punto 9
-let nuevosColores = [1];
-for (let i = 0; i < 3; i++)
-  nuevosColores.push(color);
-  console.log("Colores en bucle", colores)
+
