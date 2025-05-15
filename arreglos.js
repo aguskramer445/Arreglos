@@ -19,5 +19,10 @@ console.log("Eliminacion del ultimo color", colores)
 colores.shift("Naranja");
 console.log("Eliminacion del primer color", colores)
 //Punto 8
-
-
+colores[1]= "Turquesa"
+console.log("Cambio de posicion:", colores)
+//Punto 9
+let nuevosColores = [1];
+for (let i = 0; i < 3; i++)
+  nuevosColores.push(color);
+  console.log("Colores en bucle", colores)
