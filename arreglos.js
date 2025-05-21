@@ -22,4 +22,16 @@ console.log("Eliminacion del primer color", colores)
 colores[1]= "Turquesa"
 console.log("Cambio de posicion:", colores)
 //Punto 9
-
+for (let i = 0; i < colores.length; i++) {
+    console.log(colores[i]);
+}
+//Punto 10
+let nuevosColores = [];
+for (let i = 0; i < 3; i++) {
+    let color = prompt(`Ingresá el color ${i + 1}:`);
+    nuevosColores.push(color);
+}
+console.log("Los colores ingresados son:");
+for (let i = 0; i < nuevosColores.length; i++) {
+    console.log(nuevosColores[i]);
+}
